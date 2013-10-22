@@ -1,0 +1,439 @@
+/*The css nightmare below is written by Hemse*/
+/*It's inspired by the /r/0x10c visuals*/
+
+/*--------------------------------------Header---------------------------------------*/
+#header{
+    background-image: url(%%header-image%%);
+    height: 80px;
+    position: relative;
+    border-color: #343}
+#header-bottom-left {
+    position: absolute;
+    bottom: 0}
+.redditname a{
+    color: orangered;
+    text-shadow: 0px 3px 2px #000, 0px -3px 2px #000, 3px 0px 2px #000, -3px 0px 2px #000}
+.tabmenu a{
+    background-color: #343!important;
+    color: #8a8}
+.tabmenu .selected a{
+    background-color: #091509!important;
+    border-color: #343 #343 #091509 #343!important}
+#header-bottom-left .pagename{
+    color: #484;
+    text-shadow: 0px 3px 2px #000, 0px -3px 2px #000, 3px 0px 2px #000, -3px 0px 2px #000}
+
+/*user's header space*/
+#header-bottom-right{
+    background-color: #121}
+#header-bottom-right a, #header-bottom-right .user, #header-bottom-right .userkarma{
+    color: #8a8;
+    border-color: #343}
+#header-bottom-right .separator{
+    color: #8a8}
+#userbarToggle.userbarHide, #userbarToggle.userbarShow{
+    background-color: #343;
+    border-color: #8a8;
+    color: #8a8;
+    width: 15px;
+    height: 27px}
+#mail.nohavemail {
+    background:url(%%reddit-nomailno%%);
+    margin-left: 3px;
+    background-repeat: no-repeat}
+#mail.havemail {
+    background:url(%%reddit-nohavemail%%);
+    margin-left: 3px;
+    background-repeat: no-repeat}
+
+/*subreddit bar*/
+#sr-header-area{
+    background-color: #091509;
+    border-color: #343;
+    color: #8a8}
+#sr-header-area li .separator, #sr-header-area li a, #sr-header-area .selected.title, .drop-choices a{
+    color: #8a8}
+#sr-more-link{
+    color: #8a8;
+    background-color: #343}
+.drop-choices{
+    background-color: #091509;
+    border-color: #8a8}
+.drop-choices .choice{
+    border-color: #8a8!important}
+.drop-choices .choice:hover{
+    background-color: #454!important}
+#RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsRight, #RESShortcutsEditContainer{
+    background-color: #091509!important;
+    color: #8a8!important}
+#RESShortcuts.sr-bar > .subbarlink, #RESStaticShortcuts .subbarlink, #RESStaticShortcuts .undefined, #srDropdownContainer > a{
+    color: #8a8}
+
+/*RES dropdown menu*/
+#srList{
+    background-color: #091509!important;
+    border-color: #8a8!important}
+#srList a{
+    color: #8a8}
+#srList .RESvisited, #srList .RESshortcut, #srList thead td{
+    color: #343!important}
+#srList tr{
+    border-color: #8a8!important}
+#srList tr:hover, #srList tr:hover .RESvisited, #srList tr:hover .RESshortcut, #srList tr:hover td{
+    color: #8a8!important;
+    background-color: #454}
+
+/*--------------------------------------sidebar--------------------------------------*/
+.side{
+    background-color:#121;
+    padding-left: 5px;
+    padding-right: 5px}
+
+.sidecontentbox > .content{
+    border-color:#343}
+.sidecontentbox > .title > h1{
+    color:#343}
+.sidecontentbox a, .account-activity-box a{
+    color:#8a8}
+
+/*search field stuff*/
+#search input[type=text]{
+    border:1px solid #141;
+    background-color:#8a8}
+#search input[type=text]::-webkit-input-placeholder{
+    color: #141}
+#search input[type=text]:-moz-placeholder { 
+    color: #141}
+#search input[type=text]::-moz-placeholder { 
+    color: #141}
+#search input[type=text]:-ms-input-placeholder { 
+    color: #141}
+#searchexpando{
+    background-color:#8a8;
+    border-color:#141;
+    color: #141}
+#searchexpando > p > a {
+    color: #393}
+/*search field stuff end*/
+
+/*Link info stuff*/
+.side .linkinfo{
+    background-color: #343;
+    border-color: #8a8}
+.side .linkinfo .date, .side .linkinfo .score, .side .linkinfo .shortlink{
+    color: #8a8}
+.side .linkinfo .shortlink input{
+    border-color: #141;
+    background-color: #8a8;
+    color: #141}
+
+/*submit/create buttons*/
+.sidebox.submit.submit-link > .morelink, .sidebox.submit.submit-text > .morelink, .sidebox.create > .morelink{
+    border: 1px solid #8a8!important}
+.sidebox.submit.submit-link > .morelink > a, .sidebox.submit.submit-text > .morelink > a, .sidebox.create > .morelink > a{
+    color: #8a8;
+    background-color: #343!important}
+.sidebox.submit.submit-link > .morelink:hover, .sidebox.submit.submit-text > .morelink:hover, .sidebox.create > .morelink:hover{
+    border: 1px solid #343!important}
+.sidebox.submit.submit-link > .morelink > a:hover, .sidebox.submit.submit-text > .morelink > a:hover, .sidebox.create > .morelink > a:hover{
+    color: #343;
+    background-color: #8a8!important}
+.nub{
+    background-color:#232!important;
+    background-image: none!important;
+    width: 0px!important}
+/*submit/create buttons end*/
+
+/*title box*/
+.titlebox h1 a{
+    color:#7b7;
+    margin-left: 3px}
+.titlebox .styleToggle label{
+    color: #484}
+
+/*sub buttons*/
+.fancy-toggle-button .add
+.subButtons > .fancy-toggle-button .add, .subButtons > .RESshortcutside, .subButtons > .RESDashboardToggle, .RESSubscriptionButton, .fancy-toggle-button .add{
+    background-image: none!important;
+    background-color: transparent!important;
+    color: #8a8!important;
+    border-color: #8a8!important}
+.subButtons > .fancy-toggle-button .remove, .subButtons > .RESshortcutside.remove, .subButtons > .RESDashboardToggle.remove, .RESSubscriptionButton.unsubscribe, 
+.fancy-toggle-button .remove{
+    background-image: none!important;
+    background-color: transparent!important;
+    color: #a88!important;
+    border-color: #a88!important}
+.subButtons > .fancy-toggle-button .add:hover, .subButtons > .RESshortcutside:hover, .subButtons > .RESDashboardToggle:hover, .RESSubscriptionButton:hover, 
+.fancy-toggle-button .add:hover{
+    background-color: #8a8!important;
+    color: #121!important}
+.subButtons > .fancy-toggle-button .remove:hover, .subButtons > .RESshortcutside.remove:hover, .subButtons > .RESDashboardToggle.remove:hover, .RESSubscriptionButton.unsubscribe:hover, .fancy-toggle-button .remove:hover{
+    background-color: #a88!important;
+    color: #121!important}
+/*sub buttons end*/
+
+/*sub/reader text*/
+div.titlebox span.number{
+    color: #484}
+div.titlebox span.word {
+    display: none}
+div.titlebox span.number:after {
+    content: " Bounty hunters";
+    color: #484}
+.users-online .word {
+    display:none;}
+.users-online .word, .users-online .number:after {
+    content:" Bounty hunters online"!important}   
+/*end sub/reader text*/
+
+.leavemoderator, .leavecontributor-button, .leavecontributor-button .option, form.toggle.flairtoggle{
+    background-color:#121!important;
+    color: #343}
+.leavemoderator a, .leavecontributor-button .option a, .titlebox  .flairselectable, .titlebox  .flairselectbtn, .titlebox .author{
+    color: #8a8}
+.usertext-body{
+    color: #484}
+.usertext-body a{
+    color: #8a8}
+
+.titlebox > .bottom{
+    border-color:#343}
+
+/*hide sub founder*/
+.titlebox .bottom {
+    font-size: 0px}
+.titlebox .bottom:before {
+    font-size: 10px;
+    content: " "}
+.titlebox .bottom .age {
+    font-size: 10px;
+    color: #343;}
+/*hide sub founder end*/
+/*title box end*/
+
+/*mod tools*/
+a.reddit-edit, a.moderator-mail, a.reddit-moderators, a.reddit-contributors, a.reddit-traffic, a.reddit-modqueue, 
+a.reddit-reported, a.reddit-spam, a.reddit-ban, a.reddit-flair, a.reddit-moderationlog, a.reddit-unmoderated{
+    background-color:#121!important}
+.spacer{
+    background-color:#121!important}
+.spacer .subtitle{
+    color: #343}
+
+/*recent links point color*/
+body>div>div>div>ul>li>div>div>div>div>div>small>span{
+    color: #343}
+/*------------------------------------Body-------------------------------------------*/
+
+
+body{
+    background-color: #091509}
+
+/*link and selfpost thing*/
+.thing .title{
+    color:#9a4!important}
+.thing .title:visited{
+    color:#8a8!important}
+.content .keyHighlight{
+    background-color: transparent;
+    outline-color: #343}
+#siteTable .last-clicked{
+    border-color: #343!important}
+#siteTable p, #siteTable .redditSingleClick, #siteTable .rank{
+    color: #343}
+#siteTable p a, #siteTable li a{
+    color: #8a8}
+#siteTable .thumbnail{
+    background: url(%%reddit-selfpostImage%%) no-repeat 0 0}
+
+/*expando button stuff*/
+#siteTable .expando-button.collapsed{
+    background: url(%%reddit-expandtext%%) no-repeat 0 0}
+#siteTable .expando-button.collapsed:hover{
+    background: url(%%reddit-expandtext-hover%%) no-repeat 0 0}
+#siteTable .expando-button.expanded{
+    background: url(%%reddit-expandtext-expanded%%) no-repeat 0 0}
+#siteTable .expando-button.expanded:hover{
+    background: url(%%reddit-expandtext-expanded-hover%%) no-repeat 0 0}
+
+textarea{
+    background-color:#232;
+    color:#8a8;
+    border:1px solid #8a8!important}
+
+/*Self post stuff*/
+.link .usertext .md{
+    background-color: #121!important;
+    border-color: #343}
+.link .usertext .md p{
+    color: #484!important}
+
+/*stuff over comments*/
+.commentarea .title, .commentarea .commentingAs{
+    color: #484}
+.commentarea .menuarea .lightdrop, .commentarea .menuarea .selected, .commentarea .menuarea .togglebutton, .commentarea .menuarea .help-hoverable, 
+.commentarea .menuarea .spacer, #REScommentNavToggle{
+    color: #343!important;
+    background-color: #091509!important}
+.commentarea .panestack-title{
+    border-color: #343}
+.usertext-edit .markdownEditor a, #navigateBynew, .help-toggle.toggle a{
+    color: #8a8}
+.usertext-edit .markdownEditor .RESMacroDropdownTitle{
+    color: #343}
+.usertext-edit .markhelp td{
+    background-color: #091509;
+    border-color: #8a8;
+    color: #4a4}
+.usertext-edit .markhelp td .spaces{
+    background-color: #121}
+.usertext-edit a{
+    color: #8a8}
+.usertext-edit blockquote{
+    border-color: #8a8}
+.usertext-edit .livePreview{
+    border-color: #343!important;
+    background-color: #121;
+    color: #4a4}
+.usertext-edit .livePreview h3{
+    border-color: #343!important;
+    background-color: #121;
+    color: #343}
+
+/*RES author info*/
+#authorInfoToolTip.RESDialogSmall, #authorInfoToolTip.RESDialogSmall h3{
+    background-color: #091509;
+    border-color: #8a8!important;
+    color: #343}
+#authorInfoToolTip.RESDialogSmall a{
+    color: #8a8}
+#authorInfoToolTip.RESDialogSmall .authorLabel, #authorInfoToolTip.RESDialogSmall .authorDetail{
+    color: #343}
+#authorInfoToolTipClose.RESCloseButton{
+    border-color: #8a8;
+    color: #8a8;
+    background-color: #091509}
+#authorInfoToolTipClose.RESCloseButton:hover{
+    color: #091509;
+    background-color: #8a8}
+#authorInfoToolTip #ignoreUser.blueButton, #authorInfoToolTip a.blueButton{
+    background-color: #091509!important;
+    color: #8a8!important;
+    border-color: #8a8!important}
+#authorInfoToolTip #ignoreUser.blueButton:hover, #authorInfoToolTip a.blueButton:hover{
+    background-color: #8a8!important;
+    color: #091509!important}
+
+/*RES macro dropsown*/
+#RESMacroDropdownList{
+    background-color: #8a8;
+    border-color: #343}
+#RESMacroDropdownList li{
+    border-color: #343}
+#RESMacroDropdownList li:hover{
+    background-color: #343}
+#RESMacroDropdownList a{
+    color: #343}
+#RESMacroDropdownList a:hover{
+    color: #8a8;
+    background-color: #343}
+
+/*comment stuff*/
+.sitetable .comment p{
+    color:#4a4}
+.sitetable .comment .tagline{
+    color:#343!important;
+    margin-top: 3px}
+.sitetable .comment a{
+    color:#8a8!important}
+.sitetable .comment .author.submitter{
+    color:#121!important;
+    border: 1px solid #8a8;
+    border-radius: 3px;
+    background-color: #8a8!important;
+    padding: 0px 2px 0px 2px}
+.sitetable .comment .author.submitter:hover{
+    color:#8a8!important;
+    background-color: transparent!important}
+.usertext-body hr{
+    color: #484!important;
+    border-color: #484!important}
+
+.commentarea{
+    padding-right:310px}
+.comment .child{
+    border-left:none}
+
+.sitetable{
+    outline-style: none!important}
+.sitetable .comment{
+    background-color:#121!important; 
+    border: 1px solid #343!important;
+    border-radius: 3px; 
+    margin: 8px;
+    padding-left: 5px;
+    padding-top: 5px}
+.sitetable .comment .comment, .sitetable .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment, 
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment, 
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color:#091509!important}
+.sitetable .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment, 
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .cooment .comment .comment{
+    background-color:#121!important}
+
+.formtabs-content{
+    border-top:4px solid #121;}
+
+/*Submit link/textpost*/
+.submit-page h1{
+    color: #343}
+.submit-page h1 a{
+    color: #8a8}
+#newlink .link-button{
+    margin-right: 5px}
+#newlink .text-button, #newlink .link-button{
+    border-color: #343}
+#newlink .selected .text-button, #newlink .selected .link-button{
+    border: 1px solid #343;
+    border-bottom-color: #121!important;
+    background-color: #121!important}
+#link-desc.infobar, #text-desc.infobar{
+    background-color: #8a8; 
+    color: #141;
+    border-color: #141}
+#title-field, #url-field, #reddit-field, #text-field, #text-field .gray, #newlink .captcha, #newlink .captcha .gray{
+    background-color: #121;
+    color: #343}
+#newlink .captcha{
+    margin-bottom: 20px}
+input#url, input#sr-autocomplete, input.captcha{
+    border-color: #343!important;
+    color: #343;
+    background-color: #8a8!important}
+#reddit-field a{
+    color: #8a8}
+.submit-page .info-notice{
+    background-color: #121!important;
+    border-color: #343!important;
+    color: #343!important}
+.submit-page .info-notice a{
+    color: #8a8}
+.submit-page .content #newlink.submit.content .spacer{
+    background-color: transparent!important}
+
+/*--------------------------------------Footer---------------------------------------*/
+
+div.footer, div.footer>div.col{
+    border-color: #121}
+div.footer > div.col > ul.flat-vert > li.flat-vert.title{
+    color: #343}
+div.footer > div.col > ul.flat-vert > li > a{
+    color: #8a8}
+p.bottommenu, p.bottommenu > a, .debuginfo .icon{
+    color: #343}
+
+/*--------------------------------------Styling pages--------------------------------*/
+#subreddit_stylesheet h2, #subreddit_stylesheet a, #preview-table h2 a, #images h2 a{
+    color: #8a8}
