@@ -17,17 +17,17 @@ body{
 #siteTable p a, #siteTable li a{
     color: $color-verylight}
 #siteTable .thumbnail{
-    background: url(%%reddit-selfpostImage%%) no-repeat 0 0}
+    background: url(%%selfpost-image%%) no-repeat 0 0}
 
 /*expando button stuff*/
 #siteTable .expando-button.collapsed{
-    background: url(%%reddit-expandtext%%) no-repeat 0 0}
+    background: url(%%expandtext%%) no-repeat 0 0}
 #siteTable .expando-button.collapsed:hover{
-    background: url(%%reddit-expandtext-hover%%) no-repeat 0 0}
+    background: url(%%expandtext-hover%%) no-repeat 0 0}
 #siteTable .expando-button.expanded{
-    background: url(%%reddit-expandtext-expanded%%) no-repeat 0 0}
+    background: url(%%expandtext-expanded%%) no-repeat 0 0}
 #siteTable .expando-button.expanded:hover{
-    background: url(%%reddit-expandtext-expanded-hover%%) no-repeat 0 0}
+    background: url(%%expandtext-expanded-hover%%) no-repeat 0 0}
 
 textarea{
     background-color:#232;
