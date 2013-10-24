@@ -1,196 +1,196 @@
 /*-------------------------------content---------------------------------*/
 body{
-    background-color: $color-verydark}
+    background-color: $color-verydark; }
 
 /*link and selfpost thing*/
 .thing .title{
-	color:#9a4!important}
+	color:#9a4!important; }
 .thing .title:visited{
-	color:$color-verylight!important}
+	color:$color-verylight!important; }
 .content .keyHighlight{
 	background-color: transparent;
-	outline-color: $color-medium}
+	outline-color: $color-medium; }
 #siteTable .last-clicked{
-	border-color: $color-medium!important}
+	border-color: $color-medium!important; }
 #siteTable p, #siteTable .redditSingleClick, #siteTable .rank{
-	color: $color-medium}
+	color: $color-medium; }
 #siteTable p a, #siteTable li a{
-	color: $color-verylight}
+	color: $color-verylight; }
 #siteTable .thumbnail{
-	background: url(%%selfpost-image%%) no-repeat 0 0}
+	background: url(%%selfpost-image%%) no-repeat 0 0; }
 
 /*expando button stuff*/
 #siteTable .expando-button.collapsed{
-	background: url(%%expandtext%%) no-repeat 0 0}
+	background: url(%%expandtext%%) no-repeat 0 0; }
 #siteTable .expando-button.collapsed:hover{
-	background: url(%%expandtext-hover%%) no-repeat 0 0}
+	background: url(%%expandtext-hover%%) no-repeat 0 0; }
 #siteTable .expando-button.expanded{
-	background: url(%%expandtext-expanded%%) no-repeat 0 0}
+	background: url(%%expandtext-expanded%%) no-repeat 0 0; }
 #siteTable .expando-button.expanded:hover{
-	background: url(%%expandtext-expanded-hover%%) no-repeat 0 0}
+	background: url(%%expandtext-expanded-hover%%) no-repeat 0 0; }
 
 textarea{
 	background-color:#232;
 	color:$color-verylight;
-	border:1px solid $color-verylight!important}
+	border:1px solid $color-verylight!important; }
 
 /*Self post stuff*/
 .link .usertext .md{
 	background-color: $color-dark!important;
-	border-color: $color-medium}
+	border-color: $color-medium; }
 .link .usertext .md p{
-	color: #484!important}
+	color: #484!important; }
 
 /*stuff over comments*/
 .commentarea .title, .commentarea .commentingAs{
-	color: #484}
+	color: #484; }
 .commentarea .menuarea .lightdrop, .commentarea .menuarea .selected, .commentarea .menuarea .togglebutton, .commentarea .menuarea .help-hoverable, 
 .commentarea .menuarea .spacer, #REScommentNavToggle{
 	color: $color-medium!important;
-	background-color: $color-verydark!important}
+	background-color: $color-verydark!important; }
 .commentarea .panestack-title{
-	border-color: $color-medium}
+	border-color: $color-medium; }
 .usertext-edit .markdownEditor a, #navigateBynew, .help-toggle.toggle a{
-	color: $color-verylight}
+	color: $color-verylight; }
 .usertext-edit .markdownEditor .RESMacroDropdownTitle{
-	color: $color-medium}
+	color: $color-medium; }
 .usertext-edit .markhelp td{
 	background-color: $color-verydark;
 	border-color: $color-verylight;
-	color: #4a4}
+	color: #4a4; }
 .usertext-edit .markhelp td .spaces{
-	background-color: $color-dark}
+	background-color: $color-dark; }
 .usertext-edit a{
-	color: $color-verylight}
+	color: $color-verylight; }
 .usertext-edit blockquote{
-	border-color: $color-verylight}
+	border-color: $color-verylight; }
 .usertext-edit .livePreview{
 	border-color: $color-medium!important;
 	background-color: $color-dark;
-	color: #4a4}
+	color: #4a4; }
 .usertext-edit .livePreview h3{
 	border-color: $color-medium!important;
 	background-color: $color-dark;
-	color: $color-medium}
+	color: $color-medium; }
 
 /*RES author info*/
 #authorInfoToolTip.RESDialogSmall, #authorInfoToolTip.RESDialogSmall h3{
 	background-color: $color-verydark;
 	border-color: $color-verylight!important;
-	color: $color-medium}
+	color: $color-medium; }
 #authorInfoToolTip.RESDialogSmall a{
-	color: $color-verylight}
+	color: $color-verylight; }
 #authorInfoToolTip.RESDialogSmall .authorLabel, #authorInfoToolTip.RESDialogSmall .authorDetail{
-	color: $color-medium}
+	color: $color-medium; }
 #authorInfoToolTipClose.RESCloseButton{
 	border-color: $color-verylight;
 	color: $color-verylight;
-	background-color: $color-verydark}
+	background-color: $color-verydark; }
 #authorInfoToolTipClose.RESCloseButton:hover{
 	color: $color-verydark;
-	background-color: $color-verylight}
+	background-color: $color-verylight; }
 #authorInfoToolTip #ignoreUser.blueButton, #authorInfoToolTip a.blueButton{
 	background-color: $color-verydark!important;
 	color: $color-verylight!important;
-	border-color: $color-verylight!important}
+	border-color: $color-verylight!important; }
 #authorInfoToolTip #ignoreUser.blueButton:hover, #authorInfoToolTip a.blueButton:hover{
 	background-color: $color-verylight!important;
-	color: $color-verydark!important}
+	color: $color-verydark!important; }
 
 /*RES macro dropsown*/
 #RESMacroDropdownList{
 	background-color: $color-verylight;
-	border-color: $color-medium}
+	border-color: $color-medium; }
 #RESMacroDropdownList li{
-	border-color: $color-medium}
+	border-color: $color-medium; }
 #RESMacroDropdownList li:hover{
-	background-color: $color-medium}
+	background-color: $color-medium; }
 #RESMacroDropdownList a{
-	color: $color-medium}
+	color: $color-medium; }
 #RESMacroDropdownList a:hover{
 	color: $color-verylight;
-	background-color: $color-medium}
+	background-color: $color-medium; }
 
 /*comment stuff*/
 .sitetable .comment p{
-	color:#4a4}
+	color:#4a4; }
 .sitetable .comment .tagline{
 	color:$color-medium!important;
-	margin-top: 3px}
+	margin-top: 3px; }
 .sitetable .comment a{
-	color:$color-verylight!important}
+	color:$color-verylight!important; }
 .sitetable .comment .author.submitter{
 	color:$color-dark!important;
 	border: 1px solid $color-verylight;
 	border-radius: 3px;
 	background-color: $color-verylight!important;
-	padding: 0px 2px 0px 2px}
+	padding: 0px 2px 0px 2px; }
 .sitetable .comment .author.submitter:hover{
 	color:$color-verylight!important;
-	background-color: transparent!important}
+	background-color: transparent!important; }
 .usertext-body hr{
 	color: #484!important;
-	border-color: #484!important}
+	border-color: #484!important; }
 
 .commentarea{
-	padding-right:310px}
+	padding-right:310px; }
 .comment .child{
-	border-left:none}
+	border-left:none; }
 
 .sitetable{
-	outline-style: none!important}
+	outline-style: none!important; }
 .sitetable .comment{
 	background-color:$color-dark!important; 
 	border: 1px solid $color-medium!important;
 	border-radius: 3px; 
 	margin: 8px;
 	padding-left: 5px;
-	padding-top: 5px}
+	padding-top: 5px; }
 .sitetable .comment .comment, .sitetable .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment, 
 .sitetable .comment .comment .comment .comment .comment .comment .comment .comment, 
 .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
-	background-color:$color-verydark!important}
+	background-color:$color-verydark!important; }
 .sitetable .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment, 
 .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,
 .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .cooment .comment .comment{
-	background-color:$color-dark!important}
+	background-color:$color-dark!important; }
 
 .formtabs-content{
-	border-top:4px solid $color-dark;}
+	border-top:4px solid $color-dark; }
 
 /*Submit link/textpost*/
 .submit-page h1{
-	color: $color-medium}
+	color: $color-medium; }
 .submit-page h1 a{
-	color: $color-verylight}
+	color: $color-verylight; }
 #newlink .link-button{
-	margin-right: 5px}
+	margin-right: 5px; }
 #newlink .text-button, #newlink .link-button{
-	border-color: $color-medium}
+	border-color: $color-medium; }
 #newlink .selected .text-button, #newlink .selected .link-button{
 	border: 1px solid $color-medium;
 	border-bottom-color: $color-dark!important;
-	background-color: $color-dark!important}
+	background-color: $color-dark!important; }
 #link-desc.infobar, #text-desc.infobar{
 	background-color: $color-verylight; 
 	color: #141;
-	border-color: #141}
+	border-color: #141; }
 #title-field, #url-field, #reddit-field, #text-field, #text-field .gray, #newlink .captcha, #newlink .captcha .gray{
 	background-color: $color-dark;
-	color: $color-medium}
+	color: $color-medium; }
 #newlink .captcha{
-	margin-bottom: 20px}
+	margin-bottom: 20px; }
 input#url, input#sr-autocomplete, input.captcha{
 	border-color: $color-medium!important;
 	color: $color-medium;
-	background-color: $color-verylight!important}
+	background-color: $color-verylight!important; }
 #reddit-field a{
-	color: $color-verylight}
+	color: $color-verylight; }
 .submit-page .info-notice{
 	background-color: $color-dark!important;
 	border-color: $color-medium!important;
-	color: $color-medium!important}
+	color: $color-medium!important; }
 .submit-page .info-notice a{
-	color: $color-verylight}
+	color: $color-verylight; }
 .submit-page .content #newlink.submit.content .spacer{
-	background-color: transparent!important}
+	background-color: transparent!important; }
