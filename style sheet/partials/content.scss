@@ -10,14 +10,21 @@ body{
 .content .keyHighlight{
 	background-color: transparent;
 	outline-color: $color-medium; }
-#siteTable .last-clicked{
-	border-color: $color-medium!important; }
-#siteTable p, #siteTable .redditSingleClick, #siteTable .rank{
-	color: $color-medium; }
-#siteTable p a, #siteTable li a{
-	color: $color-verylight; }
-#siteTable .thumbnail{
-	background: url(%%selfpost-image%%) no-repeat 0 0; }
+
+#siteTable{
+	.last-clicked{
+		border-color: $color-medium!important;
+	}
+	p, .redditSingleClick, .rank{
+		color: $color-medium; 
+	}
+	p a, li a{
+		color: $color-verylight; 
+	}
+	.thumbnail{
+		background: url(%%selfpost-image%%) no-repeat 0 0; 
+	}
+}
 
 /*expando button stuff*/
 #siteTable .expando-button.collapsed{
@@ -37,19 +44,31 @@ textarea{
 /*Self post stuff*/
 .link .usertext .md{
 	background-color: $color-dark!important;
-	border-color: $color-medium; }
-.link .usertext .md p{
-	color: #484!important; }
+	border-color: $color-medium;
+	p{
+		color: #484!important; 
+	}
+}
 
 /*stuff over comments*/
-.commentarea .title, .commentarea .commentingAs{
-	color: #484; }
-.commentarea .menuarea .lightdrop, .commentarea .menuarea .selected, .commentarea .menuarea .togglebutton, .commentarea .menuarea .help-hoverable, 
-.commentarea .menuarea .spacer, #REScommentNavToggle{
+.commentarea{
+	.title, .commentingAs{
+		color: #484; 
+	}
+	.panestack-title{
+		border-color: $color-medium; 
+	}
+	.menuarea{
+		.lightdrop, .selected, .togglebutton, .help-hoverable, .spacer{
+			color: $color-medium!important;
+			background-color: $color-verydark!important; 
+		}
+	}
+}	
+
+#REScommentNavToggle{
 	color: $color-medium!important;
 	background-color: $color-verydark!important; }
-.commentarea .panestack-title{
-	border-color: $color-medium; }
 .usertext-edit .markdownEditor a, #navigateBynew, .help-toggle.toggle a{
 	color: $color-verylight; }
 .usertext-edit .markdownEditor .RESMacroDropdownTitle{
@@ -97,19 +116,24 @@ textarea{
 	background-color: $color-verylight!important;
 	color: $color-verydark!important; }
 
-/*RES macro dropsown*/
+/*RES macro dropdown*/
 #RESMacroDropdownList{
 	background-color: $color-verylight;
-	border-color: $color-medium; }
-#RESMacroDropdownList li{
-	border-color: $color-medium; }
-#RESMacroDropdownList li:hover{
-	background-color: $color-medium; }
-#RESMacroDropdownList a{
-	color: $color-medium; }
-#RESMacroDropdownList a:hover{
-	color: $color-verylight;
-	background-color: $color-medium; }
+	border-color: $color-medium;
+	li{
+		border-color: $color-medium; 
+	}
+	li:hover{
+		background-color: $color-medium; 
+	}
+	a{
+		color: $color-medium; 
+	}
+	a:hover{
+		color: $color-verylight;
+		background-color: $color-medium; 
+	}
+}
 
 /*comment stuff*/
 .sitetable .comment p{
